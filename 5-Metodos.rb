@@ -1,6 +1,16 @@
 #STRING
 "string".to_i
+"hellO".capitalize #Hello
 
+"SwAp".swapcase # "sWaP"
+
+"derecho".reverse #ohcered
+
+"name".include?("na") #true
+
+palabra = ""
+palabra.empty? #true lo mismo con .nil?
+#----------------------------------------
 
 #INTEGER
 3.between?(1 , 5) # true

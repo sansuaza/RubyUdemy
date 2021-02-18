@@ -15,3 +15,9 @@ print "same line"
 # p method brinda mas detalle de lo que se está imprimiendo
 p "hi there, this is a
 line break"
+
+# Impresion de variables
+name = "santiago"
+last_name = "suaza"
+
+puts name, last_name
