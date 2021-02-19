@@ -2,4 +2,4 @@
  # en lo posible no se debería hacer, es una mala practica
  # Se declaran en mayuscula
  # Cambio numero1
- Name = "Pepe"
+ NAME = "Pepe"
