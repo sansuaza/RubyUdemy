@@ -86,3 +86,22 @@ global_array.index(53) # 1
 global_array.find_index(1) #nil
 
 palabras_a_unir = ["Hola", "mundo", "en", "Ruby"]
+
+p [1,3,199,49,1,3,4].unique! #Elimina la redundancia en los datos
+
+p [1,5,"string",3,nil, 5].compact! # Elimina los datos nil
+
+names_array = []
+names_matriz = [["juan", "pepe", "antonio"],
+                ["maria", "carlos"], ["sofia"]]
+names_array = names_matriz.flatten
+
+names_array.sample(1) #Un valor aleatorio, o varios dependiendo el numero que se de por parametro
+
+p [1,2] * 2 # [1, 2, 1, 2]
+
+[1, 2, 3] | [3, 4, 4, 5] # Union de arrays [1,2,3,4,5]
+
+[1, 2, 3, 4] - [4] # Remove[1, 2, 3]
+
+[1, 3, 4, 5] & [3, 5] # Interseccion entre arrays [3, 5]
