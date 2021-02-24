@@ -1,0 +1,4 @@
+Hola
+Soy el lector de textos de ruby
+
+Adios
