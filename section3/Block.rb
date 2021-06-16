@@ -13,6 +13,3 @@ i = 1
 end
 
 10.times { |count| puts "#{(count+1) * 3}" }
-
-
-

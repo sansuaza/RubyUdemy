@@ -6,9 +6,8 @@ even = []
 numbers.each do |number|
   if number.odd?
     odds << number
-  elsif
+  elsif number.even?
     even.push(number)
-
 	end
 end	
 

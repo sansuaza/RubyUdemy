@@ -11,4 +11,5 @@ precios_2 = {
 }
 
 precios.merge!(precios_2)
-p precios # Como ambos tienes un valor en comun, queda el valor del hash entrante, lo sobreescribe
+p precios # Como ambos tienes un valor en comun, 
+					# queda el valor del hash entrante, lo sobreescribe
